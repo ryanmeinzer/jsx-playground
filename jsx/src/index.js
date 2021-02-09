@@ -7,3 +7,7 @@ const App = () => {
     return <div>Hi there!</div>
 }
 // show React component on screen
+ReactDOM.render(
+    <App />,
+    document.querySelector('#root')
+)
